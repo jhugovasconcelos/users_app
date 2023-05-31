@@ -1,0 +1,33 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "id",
+                "AttributeType": "N"
+            }
+        ],
+        "TableName": "Users",
+        "KeySchema": [
+            {
+                "AttributeName": "id",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2023-05-30T20:38:10.740000-03:00",
+        "ProvisionedThroughput": {
+            "LastDecreaseDateTime": "2023-05-30T20:50:52.143000-03:00",
+            "NumberOfDecreasesToday": 0,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 0,
+        "ItemCount": 0,
+        "TableArn": "arn:aws:dynamodb:us-east-1:537303710373:table/Users",
+        "TableId": "061c8831-8f63-41f5-9122-8e05dd24ebff",
+        "TableClassSummary": {
+            "TableClass": "STANDARD"
+        },
+        "DeletionProtectionEnabled": false
+    }
+}

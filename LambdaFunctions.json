@@ -1,0 +1,74 @@
+{
+    "Functions": [
+        {
+            "FunctionName": "dynamodb-get-item",
+            "FunctionArn": "arn:aws:lambda:us-east-1:537303710373:function:dynamodb-get-item",
+            "Runtime": "nodejs14.x",
+            "Role": "arn:aws:iam::537303710373:role/service-role/dynamodb-get-item-role-bqdlrfjw",
+            "Handler": "index.handler",
+            "CodeSize": 1148,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-05-31T00:17:32.391+0000",
+            "CodeSha256": "JraE+vxMri0zuMl77tuaXWWvQL/TetOjjvspHRziIas=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "TABLE": "Users",
+                    "DEBUG": "true"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "de7458c4-62ea-4e6b-8b46-00a69227e2f7",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            }
+        },
+        {
+            "FunctionName": "dynamodb-create-item",
+            "FunctionArn": "arn:aws:lambda:us-east-1:537303710373:function:dynamodb-create-item",
+            "Runtime": "nodejs14.x",
+            "Role": "arn:aws:iam::537303710373:role/service-role/dynamodb-get-item-role-bqdlrfjw",
+            "Handler": "index.handler",
+            "CodeSize": 1100,
+            "Description": "",
+            "Timeout": 3,
+            "MemorySize": 128,
+            "LastModified": "2023-05-31T00:15:41.653+0000",
+            "CodeSha256": "JwJl0K2orNKNKK9je2MKuQzfUe9ILK6zstxi32cJX4g=",
+            "Version": "$LATEST",
+            "Environment": {
+                "Variables": {
+                    "TABLE": "Users",
+                    "DEBUG": "true"
+                }
+            },
+            "TracingConfig": {
+                "Mode": "PassThrough"
+            },
+            "RevisionId": "24106b02-be2a-4987-9466-4d233832caf9",
+            "PackageType": "Zip",
+            "Architectures": [
+                "x86_64"
+            ],
+            "EphemeralStorage": {
+                "Size": 512
+            },
+            "SnapStart": {
+                "ApplyOn": "None",
+                "OptimizationStatus": "Off"
+            }
+        }
+    ]
+}
